@@ -2,7 +2,7 @@
 Este repositorio contiene el código empleado en el TFM "Análisis integrativo de datos ómicos para el desarrollo de metabotipos" realizado por Claudia Arce Cuesta
 
 
-# 0. Obtención de los datos
+## 0. Obtención de los datos
 Antes de importar los datos se vio que había algunos pacientes de los que faltaba algún tipo de dato o variable, por lo que dichos pacientes han sido descartados del dataset previamente antes de importarse a R.
 
 Para poder trabajar con el argoritmo SNF es importante que todas las variables sean cuantitativas por lo que los datos de variables cualitativas de los que se disponía en el dataset también han sido descartados antes de empezar a trabajar con ellos.
