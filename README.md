@@ -107,3 +107,9 @@ Con la función concordanceNetworkkNMI podemos ver la concordancia entre la red 
 ConcordanceMatrix = concordanceNetworkNMI(list(network,Wmetab,Wsamples,Wotus),3)
 ConcordanceMatrix
 ```
+| x  | Red final | metabolitos | riesgo cardiovascular | microbiota intestinal |
+| ------------- | ------------- | ------------- | ------------- |
+| Red final  | 1.000 | 0.0538 |0.47202 |	0.00998 |
+| Metabolitos  | 0.05383 |	1.0000	| 0.02016 |	0.00195 |
+| Riesgo cardiovascular |0.47202 |	0.02016	| 1.0000	| 0.00228 |
+| Microbiota intestinal | 0.00998	| 0.00195 |	0.00228 |	1.0000 |
