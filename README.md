@@ -73,6 +73,11 @@ displayClustersWithHeatmap(Wmetab,clus_metab )
 displayClustersWithHeatmap(Wsamples, clus_samples)
 displayClustersWithHeatmap(Wotus,clus_otus)
 ```
+![image](https://user-images.githubusercontent.com/104385965/212497443-eb7a40ca-ac3f-4e41-8188-7742492a9bff.png)
+
+![image](https://user-images.githubusercontent.com/104385965/212497442-254ef5a0-755b-407f-824d-b260c2449024.png)
+
+![image](https://user-images.githubusercontent.com/104385965/212497438-e9eefb38-cb3a-447b-bd61-b07c76888b12.png)
 
 ## 4. Fusión de matrices de similitud
 
@@ -92,6 +97,7 @@ clusteringSNF<-spectralClustering(network, K = 3)
 displayClustersWithHeatmap(network,clusteringSNF)
 
 ```
+![image](https://user-images.githubusercontent.com/104385965/212497428-0a195c7d-0c5f-4237-9307-70d37d62251f.png)
 
 ## 5. Comprobar concordancia
 
